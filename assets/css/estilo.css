@@ -1,0 +1,149 @@
+ {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box
+}
+
+
+ul {
+list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+display: contents;
+    font-family: 'Otomanopee One', sans-serif;
+  font-size: 35px;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: rgba(50,50,50, 0.5)  ;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,181,218,1) 100%, rgba(148,187,233,0.14329481792717091) 100%);
+  }
+
+
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+}
+
+.navli{
+  display: contents;
+}
+
+.nav-item{
+  display: block;
+  font-size: 1.25rem;
+  padding: 0.9rem 2rem;
+  transition: all 1s;
+}
+
+.nav-item:hover{
+  background-color: pink;
+}
+.nav-logotipo{
+  max-width: 100px;
+}
+
+
+.contac{
+display: block;
+text-align: justify;
+  justify-content: flex-start;
+  align-items:flex-start;
+  height: 120px;
+  color: black;
+  margin-right: auto;
+  margin-left:inherit;
+  }
+
+.parrafo{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.parf{
+  display:contents;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.ubicacion{
+  display: contents;
+  font-size: 15px;
+  font-style: italic;
+  font-family: cursive;
+  height: 20vh;
+}
+
+.img{
+  height: 20vh;
+}
+
+
+
+.label{
+  display: block;
+  margin-left:30px;
+}
+
+.control{
+  margin-right: : 140px;
+}
+.produc img {
+  width: 150px;
+}
+
+.produc h3{
+  font-size: 1.5em;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.card{
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),  0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+
+.main {
+  background-image: url(https://4.bp.blogspot.com/-kS59NsfvaxM/WbXI0DYLwOI/AAAAAAAB5qo/cHKFEaC9UHoWc6K7Jf6tM2bVNRcvGGjiQCLcBGAs/s640/Tienda.jpg);
+  width: 100% ;
+  height: 100% ;
+  position: absolute;
+}
+
+.titulo{
+  display:flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  color: pink;
+  margin-right: auto;
+  margin-left:inherit;
+  text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168)
+}
