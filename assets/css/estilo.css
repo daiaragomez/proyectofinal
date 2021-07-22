@@ -4,8 +4,6 @@
    box-sizing: border-box
 }
 
-
-
 ul {
 list-style: none;
 }
@@ -26,19 +24,16 @@ display: contents;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: rgba(50,50,50, 0.5)  ;
-  background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,181,218,1) 100%, rgba(148,187,233,0.14329481792717091) 100%);
-  }
-
-
+  color: darkgrey;
+ background-color: black;
+}
 
 .nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  background-color: white;
+  background-color: black;
   width: 100%;
   height: 100px;
   position: fixed;
@@ -46,6 +41,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,181,218,1) 
   left: 0;
   padding: 0 1rem;
 }
+
 
 .navli{
   display: contents;
@@ -59,7 +55,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,181,218,1) 
 }
 
 .nav-item:hover{
-  background-color: pink;
+  background-color: white;
 }
 .nav-logotipo{
   max-width: 100px;
@@ -72,9 +68,10 @@ text-align: justify;
   justify-content: flex-start;
   align-items:flex-start;
   height: 120px;
-  color: black;
+  color: darkgrey;
   margin-right: auto;
   margin-left:inherit;
+  font-style: italic;
   }
 
 .parrafo{
@@ -82,6 +79,9 @@ text-align: justify;
   justify-content: center;
   align-items: center;
   height: 20px;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 25px;
 }
 
 .parf{
@@ -89,35 +89,48 @@ text-align: justify;
   font-style: italic;
   font-family: cursive;
   font-size: 15px;
+  height: auto;
 }
 
 .ubicacion{
-  display: contents;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
   font-size: 15px;
   font-style: italic;
   font-family: cursive;
-  height: 20vh;
 }
 
 
 
 .label{
-  display: block;
-  margin-left:30px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.control{
-  margin-right: : 140px;
-}
+.productos{
+  margin: 1em;
+  padding: 1em;
+  float: left;
 
+
+}
 .produc img{
-  width: 150px;
+  width: 250px;
 }
 
 .produc img {
   margin: 1em;
   padding: 1em;
-  float:left;
+  float: left;
+  object-fit: cover;
+}
+
+.produc h3{
+  font-size: 1.1em;
+  margin-top:1px;
+  margin-bottom: 1px;
 }
 
 
@@ -134,7 +147,7 @@ text-align: justify;
   justify-content: center;
   align-items: center;
   height: 250px;
-  color: pink;
+  color: slategray;
   margin-right: auto;
   margin-left:inherit;
   text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168)
