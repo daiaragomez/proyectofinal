@@ -35,7 +35,7 @@ display: contents;
   align-items: stretch;
   background-color: black;
   width: 100%;
-  height: 110px;
+  height: 100px;
   position: fixed;
   top: 0;
   left: 0;
@@ -174,4 +174,13 @@ text-align: justify;
 .card-text{
   font-style: italic;
 
+}
+
+.card-group{
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contacto{
+  flex-direction: row;
 }
