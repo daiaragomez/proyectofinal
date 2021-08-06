@@ -110,33 +110,40 @@ text-align: justify;
   align-items: flex-start;
 }
 
-.productos{
-  margin: 1em;
-  padding: 1em;
-  float: left;
-    object-fit: cover;
+.productos1{
+  margin: 1.5em;
+  padding: 1.5em;
+  float: none;
+  object-position;
+}
+.productos2{
+  margin: 1.5em;
+  padding: 1.5em;
+  float: none;
+  object-position:
 }
 
+
 .produc img{
-  width: 250px;
+  width: 150px;
 }
 
 .produc img {
   margin: 1em;
   padding: 1em;
   float: left;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 
 .produc h3{
-  font-size: 1.1em;
+  font-size: 1em;
   margin-top:1px;
   margin-bottom: 1px;
 }
 
 
-.main {
+.main{
   background-image: url(https://4.bp.blogspot.com/-kS59NsfvaxM/WbXI0DYLwOI/AAAAAAAB5qo/cHKFEaC9UHoWc6K7Jf6tM2bVNRcvGGjiQCLcBGAs/s640/Tienda.jpg);
   width: 100% ;
   height: 100% ;
