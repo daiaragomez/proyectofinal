@@ -23,7 +23,7 @@ display: contents;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 125vh;
   color: darkgrey;
  background-color: black;
 }
@@ -114,9 +114,9 @@ text-align: justify;
   margin: 1em;
   padding: 1em;
   float: left;
-
-
+    object-fit: cover;
 }
+
 .produc img{
   width: 250px;
 }
@@ -125,8 +125,9 @@ text-align: justify;
   margin: 1em;
   padding: 1em;
   float: left;
-  object-fit: cover;
+    object-fit: cover;
 }
+
 
 .produc h3{
   font-size: 1.1em;
@@ -152,4 +153,18 @@ text-align: justify;
   margin-right: auto;
   margin-left:inherit;
   text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168)
+}
+
+.card{
+  background-color: black;
+  }
+
+.card-title{
+  font-style: italic;
+
+}
+
+.card-text{
+  font-style: italic;
+
 }
